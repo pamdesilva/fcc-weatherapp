@@ -141,7 +141,7 @@ $(document).ready(function() {
 
 	// Error message if geolocation can't be accessed
 	function error() {
-		alert(`Whoops, looks like something went wrong. Try again by refreshing your browser and clicking 'Allow'`);
+		alert(`Whoops, looks like something went wrong. Try again by refreshing your browser.`);
 	}
 
 	var options = {

@@ -1,8 +1,8 @@
 # Local Weather App
 
-Project 2 of Free Code Camp's Intermediate Front End Development Project.
+Project 2 of Free Code Camp's Intermediate Front End Development Projects.
 
-A weather app that tells you what your local weather is. 
+A weather app that tells you what your local weather is.
 
 Features:
 
