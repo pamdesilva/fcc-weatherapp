@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Local Weather App</title>
+
+  <!-- CSS + Fonts + Icons -->
+  <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.eot" rel="application/vnd.ms-fontobjec">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.svg" rel="image/svg+xml">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.ttf" rel="application/font-sfnt">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff" rel="application/font-woff">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/font/weathericons-regular-webfont.woff2" rel="application/font-woff2">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <div id="overlay"></div>
+
+  <div class="container text-center page">
+    <div id="loading-text">
+      <p>Checking with the weatherman</p>
+      <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+      </div>
+    </div>
+    <h1 id="location"></h1>
+
+    <div class="row">
+
+      <div class="col">
+        <div id="icon"></div>
+        <p id="weather-desc"></p>
+      </div>
+
+      <div class="col">
+        <div class="col text-center" id="temperature"></div>
+        <div class="col">
+          <div id="cel-btn"></div>
+          <div id="fah-btn"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <p id="local-time"></p>
+  </div>
+  <footer id="footer" class="container-fluid">
+  </footer>
+
+
+
+
+  <!-- JavaScript Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+
+
+</body>
+
+</html>

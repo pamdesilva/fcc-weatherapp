@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-size: cover !important;
+  color: white;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  position: fixed;
+  opacity: .9;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.page {
+  position: relative;
+  z-index: 5;
+}
+
+#loading-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.spinner {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #fff;
+  border-radius: 100%;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate {
+  100% {
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg)
+  }
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% {
+    -webkit-transform: scale(0.0)
+  }
+  50% {
+    -webkit-transform: scale(1.0)
+  }
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  }
+  50% {
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+#location {
+  font-size: 5em;
+  font-weight: 400;
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+
+#icon {
+  font-size: 10em;
+  font-weight: 700;
+}
+
+#weather-desc {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+#temperature {
+  font-size: 10em;
+  font-weight: 700;
+}
+
+#local-time {
+  font-size: 3em;
+  margin-top: 4%;
+
+}
+
+#location,
+#icon,
+#weather-desc,
+#temperature,
+#local-time,
+#loading-text {
+  text-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
+
+#cel-btn, #fah-btn {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.btn {
+  background: transparent;
+  color: white;
+  width: 65px;
+  border: none;
+  border-radius: 100px;
+  margin-top: 2%;
+  font-size: 2em;
+  font-weight: 600;
+  border: 3px solid white;
+  box-shadow: 2px 4px 21px rgba(0,0,0,0.3);
+}
+
+.btn:hover,
+.active {
+  background: white;
+  color: #efa0a3;
+  border: 3px solid white;
+}
+
+#footer {
+  z-index: 8;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  background: white;
+  text-align: center;
+  padding-top: 1%;
+  color: #efa0a3;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #a6c0fe;
+}
