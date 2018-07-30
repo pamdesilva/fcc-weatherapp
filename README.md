@@ -1,6 +1,6 @@
 # Local Weather App ☔️
 
-Shows you what the weather in your area is. [See demo](https://weather.pamela.io/)
+See what the weather and temperature in your area is. [See demo](https://weather.pamela.io/)
 
 ### Features
 
