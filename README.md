@@ -1,6 +1,6 @@
 # Local Weather App ☔️
 
-Shows what your local weather is so you can be prepared. [See demo](https://weather.pamela.io/)
+Shows you what the weather in your area is. [See demo](https://weather.pamela.io/)
 
 ### Features
 
@@ -12,4 +12,4 @@ Weather information powered by [Open Weather Map](https://openweathermap.org).
 
 Written in HTML, CSS & JavaScript.
 
-A project for FreeCodeCamp.
+A project for [FreeCodeCamp](https://freecodecamp.org/).
