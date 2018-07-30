@@ -1,13 +1,15 @@
-# Local Weather App
+# Local Weather App ☔️
 
-Project 2 of Free Code Camp's Intermediate Front End Development Projects.
+Shows what your local weather is so you can be prepared. [See demo](https://weather.pamela.io/)
 
-A weather app that tells you what your local weather is.
-
-Features:
+### Features
 
 * Change temperature display from Celcius to Fahrenheit.
 
 * Background image changes according to weather conditions.
 
 Weather information powered by [Open Weather Map](https://openweathermap.org).
+
+Written in HTML, CSS & JavaScript.
+
+A project for FreeCodeCamp.
